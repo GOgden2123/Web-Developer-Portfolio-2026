@@ -51,32 +51,89 @@
  
 }
 
+/* Media Query for iPhone 13 and similar smartphones */
 @media screen and (max-width: 430px) {
-    #profile {
+    
+    /* 1. Reset Global Margins & Padding */
+    .section {
+        margin: 0 5%; /* Reduces the 10rem margin which would crush content on mobile */
+        min-height: fit-content;
+        padding-top: 5vh;
+    }
+
+    /* 2. Navigation Toggle */
+    #desktop-nav {
+        display: none; /* Hide standard nav */
+    }
+
+    #hamburger-nav {
+        display: flex; /* Show your hamburger menu */
+    }
+
+    /* 3. Profile Section Adjustments */
+    #profile, .profile {
         flex-direction: column; /* Stack image on top of text */
-        justify-content: center;
-        height: auto;           /* Allow the section to grow with content */
-        gap: 2rem;              /* Shrink the massive 5rem gap */
-        margin-top: 2rem;
+        height: auto;
+        gap: 2rem;
+        padding-top: 2rem;
     }
 
     .section-pic-container {
-        /* Scale down the container to fit the 390px screen */
-        width: 280px; 
-        height: 280px;
-        margin: 0 auto;         /* Centers the container horizontally */
+        width: 250px; /* Smaller image for mobile */
+        height: 250px;
+        margin: 0 auto;
     }
 
-    .section-pic-container img {
-        width: 100%;            /* Force image to fill the new smaller container */
-        height: auto;
-        border-radius: 50%;     /* Keeps it circular if it's a headshot */
+    /* 4. Typography Scaling */
+    .title {
+        font-size: 2.5rem; /* 80px is too wide for 390px screens */
+    }
+
+    .section-text-p1 {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+    }
+
+    .section-text-p2 {
+        font-size: 1.75rem;
+    }
+
+    /* 5. About & Experience Containers */
+    .about-containers, 
+    .details-about-containers, 
+    .section-container {
+        flex-direction: column; /* Stack the boxes vertically */
+        align-items: center;
+        margin: 0;
+        gap: 1rem;
     }
 
     .about-pic {
-        /* Fixes the specific about-pic margins from your original CSS */
-        margin-bottom: 20px; 
-        width: 250px;
-        height: 250px;
+        margin: 0 auto 2rem auto; /* Remove the 500px right margin */
+        width: 200px;
+        height: 200px;
+    }
+
+    .details-container {
+        width: 100%; /* Make boxes full width */
+    }
+
+    /* 6. Experience & Contact */
+    .article-container {
+        gap: 1rem;
+    }
+
+    .contact-info-upper-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .contact-info-container p {
+        font-size: 1rem;
+    }
+
+    /* 7. Buttons */
+    .btn-container {
+        flex-wrap: wrap;
     }
 }
