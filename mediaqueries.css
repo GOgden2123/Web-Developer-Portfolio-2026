@@ -109,7 +109,7 @@
     }
 
     .about-pic {
-        margin: 0 auto 2rem auto; /* Remove the 500px right margin */
+        margin-top: 20px;
         width: 200px;
         height: 200px;
     }
