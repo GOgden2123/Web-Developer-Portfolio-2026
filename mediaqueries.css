@@ -54,7 +54,7 @@
 /* Media Query for iPhone 13 and similar smartphones */
 @media screen and (max-width: 430px) {
   .about-pic {
-    margin-left: 20px;
+    margin-left: 200px;
     margin-bottom: 20px;
     
   }
