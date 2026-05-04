@@ -75,7 +75,7 @@
 
     .about-pic {
         /* Fixes the specific about-pic margins from your original CSS */
-        margin: 0 auto 2rem auto; 
+        margin-bottom: 20px; 
         width: 250px;
         height: 250px;
     }
