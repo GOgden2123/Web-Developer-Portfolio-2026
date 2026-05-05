@@ -62,7 +62,9 @@ justify-content: center;
 .arrow {
   margin-bottom: -20px; 
 }
-
+.title {
+  font-size: 50px;
+}
 .section-pic-container {
 width: 100%; 
 height: auto;
@@ -76,7 +78,6 @@ max-width: 250px;
 }
 .details-about-containers {display: grid;}
 .menu-links { right: 0; }
-
 * { box-sizing: border-box; }
 }
 
