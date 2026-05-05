@@ -59,6 +59,9 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center; 
 }
+.arrow {
+  margin-bottom: -20px; 
+}
 
 .section-pic-container {
 width: 100%; 
