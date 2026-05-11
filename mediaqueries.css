@@ -81,7 +81,7 @@ max-width: 250px;
 * { box-sizing: border-box; }
 }
 
-.footer {
+.nav-links-container {
   display: flex; 
   flex-direction: column;
   align-items: center; 
