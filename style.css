@@ -473,6 +473,12 @@ a:hover {
     margin: 0 1rem;
 }
 
+.footer-nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
 .arrow {
     position: absolute;
     bottom: 2rem;
