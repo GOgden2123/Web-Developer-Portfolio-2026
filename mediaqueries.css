@@ -21,60 +21,31 @@
   .about-containers { margin-top: 0; }
 }
 
-/* Mobile */
-/*@media screen and (max-width: 600px) {
-  #contact, footer { height: 40vh; }
-  #profile { height: 83vh; margin-bottom: 0; }
-  #about { margin-top: -250px; }
-  .menu-links a { margin-top: -10px; }
-  .article { font-size: 1rem; }
-  footer nav { height: fit-content; margin-bottom: 2rem; }
-  .about-containers, .contact-info-upper-container, .btn-container { flex-wrap: wrap; }
-  
-  .contact-info-container { margin: 0; margin-right: 10px; }
-  .contact-info-container p, .nav-links li a { font-size: 1rem; }
-  
-  .experience-subtitle { font-size: 1.25rem; }
-  .logo { font-size: 1.5rem; }
-  
-  .nav-links { flex-direction: column; gap: 0.5rem; text-align: center; }
-  .menu-links { right: -80px; }
-  .menu-links.open { border-radius: 15px; }
-  .section-pic-container { width: auto; height: 46vw; justify-content: center; }
-  .section-text-p2 { font-size: 1.25rem; }
-  
-  .title { font-size: 2rem; }
-  .text-container { text-align: justify; }
-  .arrow { width: 30px; height: 30px; margin-bottom: 120px; }
-  .about-pic { margin-block: 8px; margin-left:80px; }
-  .project-img { width: 50%; height: 50%; }
- 
-}*/
 @media screen and (max-width: 600px) {
-#contact, footer { min-height: 40vh; }
-#profile { min-height: 83vh; margin-bottom: 0; }
-#about { margin-top: -50px; }
-.about-containers, .contact-info-upper-container, .btn-container {
-display: flex;
-flex-wrap: wrap;
-justify-content: center; 
-}
-.arrow {
-  margin-bottom: -20px; 
+  #contact, footer { min-height: 40vh; }
+  #profile { min-height: 83vh; margin-bottom: 0; }
+  #about { margin-top: -50px; }
+  .about-containers, .contact-info-upper-container, .btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+  .arrow {
+    margin-bottom: -20px; 
 }
 .title {
   font-size: 50px;
 }
 .section-pic-container {
-width: 100%; 
-height: auto;
-display: flex;
-justify-content: center;
+  width: 100%; 
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 .about-pic {
-margin: 8px auto;
-display: block;
-max-width: 250px;
+  margin: 8px auto;
+  display: block;
+  max-width: 250px;
 }
 .details-about-containers {display: grid;}
 .menu-links { right: 0; }
