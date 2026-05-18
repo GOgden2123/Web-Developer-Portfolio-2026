@@ -1,8 +1,21 @@
 /* 1. Large screens (1400px down) */
 @media screen and (max-width: 1400px) {
-  #profile { height: 83vh; margin-bottom: 6rem; }
-  .about-containers { flex-wrap: wrap; }
-  #contact, #projects { height: fit-content; }
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  #contact, #projects {
+    height: fit-content;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  .footer-nav-links {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    
+  }
 }
 
 /* 2. Tablets and smaller (1200px down) */
@@ -17,13 +30,19 @@
   .about-pic { margin-left: -23px;}
   section, .section-container { height: fit-content; }
   section { margin: 0 5%; }
-  .section-pic-container { width: 275px; height: 275px; margin: 0 auto 2rem; }
-  .about-containers { margin-top: 0; }
+  .section-pic-container { 
+    width: 275px; 
+    height: 275px; 
+    margin: 0 auto 2rem;}
+  .about-containers {margin-top: 0;}
 }
 
 @media screen and (max-width: 600px) {
-  #contact, footer { min-height: 40vh; }
-  #profile { min-height: 83vh; margin-bottom: 0; }
+  #contact, footer {
+    min-height: 40vh;}
+  #profile {
+    min-height: 83vh; 
+    margin-bottom: 0;}
   #about { margin-top: -50px; }
   .about-containers, .contact-info-upper-container, .btn-container {
     display: flex;
