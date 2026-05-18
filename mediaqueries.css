@@ -55,37 +55,35 @@
   }
   .arrow {
     margin-bottom: -20px; 
-}
+  }
   .title {
     font-size: 50px;
-}
+  }
   .section-pic-container {
     width: 100%; 
     height: auto;
     display: flex;
     justify-content: center;
-}
-.about-pic {
-  margin: 8px auto;
-  display: block;
-}
-.details-about-containers {
-  display: grid;
-}
-.menu-links {
-  right: 0; 
-}
-* { 
+  }
+  .about-pic {
+    margin: 8px auto;
+    display: block;
+  }
+  .details-about-containers {
+    display: grid;
+  }
+  .menu-links {
+  right: 0;
+  }
+  * { 
   box-sizing: border-box;
-}
-}
-
-.footer-nav-links {
+  }
+  .footer-nav-links {
   display: flex; 
   margin-top: 100px;
   flex-direction: column;
   align-items: center; 
-}
+  }
 }
 
 
