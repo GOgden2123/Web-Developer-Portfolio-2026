@@ -1,4 +1,4 @@
-/* 1. Large screens (1400px down) */
+/* Large screens (1400px down) */
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -18,32 +18,36 @@
   }
 }
 
-/* 2. Tablets and smaller (1200px down) */
+/* Tablets and smaller (1200px down) */
 @media screen and (max-width: 1200px) {
-  #desktop-nav { display: none; }
-  #hamburger-nav { display: flex; }
-  
-  #experience, .experience-details-container { margin-top: 2rem; }
-  #profile, .section-container { display: block; }
-  .menu-links.open { border-radius: 15px;}
-  .menu-links a {margin-top: -10px; }
-  .about-pic { margin-left: -23px;}
-  section, .section-container { height: fit-content; }
-  section { margin: 0 5%; }
+  #desktop-nav {display: none;}
+  #hamburger-nav {display: flex;}
+  #experience, .experience-details-container {margin-top: 2rem;}
+  #profile, .section-container {display: block;}
+  .menu-links.open {border-radius: 15px;}
+  .menu-links a {margin-top: -10px;}
+  .about-pic {margin-left: -23px;}
+  section, .section-container {height: fit-content;}
+  section {margin: 0 5%;}
   .section-pic-container { 
     width: 275px; 
     height: 275px; 
-    margin: 0 auto 2rem;}
+    margin: 0 auto 2rem;
+  }
   .about-containers {margin-top: 0;}
 }
-
+/* Mobile phones (600px down) */
 @media screen and (max-width: 600px) {
   #contact, footer {
-    min-height: 40vh;}
+    min-height: 40vh;
+  }
   #profile {
     min-height: 83vh; 
-    margin-bottom: 0;}
-  #about { margin-top: -50px; }
+    margin-bottom: 0;
+  }
+  #about {
+    margin-top: -50px;
+  }
   .about-containers, .contact-info-upper-container, .btn-container {
     display: flex;
     flex-wrap: wrap;
@@ -52,14 +56,14 @@
   .arrow {
     margin-bottom: -20px; 
 }
-.title {
-  font-size: 50px;
+  .title {
+    font-size: 50px;
 }
-.section-pic-container {
-  width: 100%; 
-  height: auto;
-  display: flex;
-  justify-content: center;
+  .section-pic-container {
+    width: 100%; 
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
 .about-pic {
   margin: 8px auto;
@@ -82,6 +86,7 @@
   margin-top: 100px;
   flex-direction: column;
   align-items: center; 
+}
 }
 
 
