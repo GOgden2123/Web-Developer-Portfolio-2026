@@ -161,7 +161,7 @@ a:hover {
 
 .section-container {
     display: flex;
-    align-items: center; /* Vertically aligns image and text */
+    align-items: center;
     gap: 2rem;
 
 }
@@ -211,7 +211,7 @@ a:hover {
 
 #about {
     position: relative;
-    padding: 10vh 5%; /* Use percentage for responsiveness */
+    padding: 10vh 5%; 
 }
 
 
@@ -424,8 +424,6 @@ a:hover {
 
 }
 
-/* Contact */
-
 #contact {
     display:flex;
     justify-content: center;
@@ -465,8 +463,6 @@ a:hover {
 .email-icon {
     height: 2.5rem;
 }
-
-/* Footer */
 
 .footer {
     height: 26vh;
